@@ -5,6 +5,7 @@ import CardList from './components/card-list/card-list.component';
 import SearchBox from './components/search-box/search-box.component';
 
 const App = ()=>{
+  console.log('render')
   const [searchFild, setSearchFild] = useState('');
   const [monsters, setMonsters] = useState([]);
   const [filteremonsters, setFiltereMonsters] = useState(monsters);
