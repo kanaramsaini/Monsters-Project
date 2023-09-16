@@ -15,3 +15,13 @@
     background-color: #075a83;
     color:white;
 }
+
+
+
+/* For extremely small screen devices (480px and below) */
+@media only screen and (max-width: 480px) {
+    .card-container{
+        padding: 15px;
+       
+    }
+}
